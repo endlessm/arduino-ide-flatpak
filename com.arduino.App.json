@@ -1,0 +1,43 @@
+{
+  "app-id": "com.arduino.App",
+  "runtime": "com.endlessm.Sdk",
+  "sdk": "com.endlessm.Sdk",
+  "command": "arduino",
+  "finish-args": [
+    "--persist=.java",
+    "--talk-name=org.gtk.vfs.UDisks2VolumeMonitor",
+    "--socket=x11",
+    "--share=ipc",
+    "--share=network",
+    "--device=all",
+    "--filesystem=host" 
+  ],
+  "modules": [
+      {
+          "name": "arduino",
+          "no-autogen": true,
+          "sources" : [
+              {
+                  "type": "archive",
+                  "url": "http://downloads.arduino.cc/arduino-1.6.12-linux64.tar.xz",
+                  "sha256": "c4fd765eb58906aeafeffd7f9234c4709ac08f4195afbdd12133ba59d5711511"
+              },
+              {
+                  "type": "file",
+                  "path": "Makefile",
+                  "dest-filename": "Makefile"
+              },
+              {
+                  "type": "file",
+                  "path": "com.arduino.App.png",
+                  "dest-filename": "com.arduino.App.png"
+              },
+              {
+                  "type": "file",
+                  "path": "com.arduino.App.desktop",
+                  "dest-filename": "com.arduino.App.desktop"
+              }
+          ]
+      }
+  ]
+}
