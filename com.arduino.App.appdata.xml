@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- See https://wiki.gnome.org/GnomeGoals/AppDataGnomeSoftware -->
 <component type="desktop">
-  <id>app.arduino.App.desktop</id>
+  <id>com.arduino.App.desktop</id>
   <metadata_licence>CC-BY-SA</metadata_licence>
   <description>
     <p>
