@@ -10,4 +10,6 @@ install:
 	cp com.arduino.App.png /app/share/icons/hicolor/128x128/apps/com.arduino.App.png
 	cp com.arduino.App.desktop /app/Arduino/lib/com.arduino.App.desktop
 	rm /app/Arduino/lib/desktop.template
+	mkdir -p /app/share/appdata
+	cp com.arduino.App.appdata.xml /app/share/appdata/
 	chmod -R go+rX /app/Arduino
