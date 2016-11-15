@@ -20,5 +20,4 @@
     <screenshot width="704" height="396">http://mavit.fedorapeople.org/appdata/arduino-photo.jpg</screenshot>
   </screenshots>
   <url type="homepage">http://www.arduino.cc/</url>
-  <updatecontact>arduino.appdata.xml@mavit.org.uk</updatecontact>
 </component>
