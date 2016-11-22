@@ -36,6 +36,11 @@
                   "type": "file",
                   "path": "com.arduino.App.desktop",
                   "dest-filename": "com.arduino.App.desktop"
+              },
+              {
+                  "type": "file",
+                  "path": "com.arduino.App.appdata.xml",
+                  "dest-filename": "com.arduino.App.appdata.xml"
               }
           ]
       }
