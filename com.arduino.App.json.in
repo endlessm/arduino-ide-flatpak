@@ -1,6 +1,7 @@
 {
   "app-id": "com.arduino.App",
   "runtime": "com.endlessm.Sdk",
+  "runtime-version": "@BRANCH@",
   "sdk": "com.endlessm.Sdk",
   "command": "arduino",
   "finish-args": [
