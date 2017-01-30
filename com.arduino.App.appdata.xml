@@ -3,6 +3,8 @@
 <component type="desktop">
   <id>com.arduino.App.desktop</id>
   <metadata_licence>CC-BY-SA</metadata_licence>
+  <name>Arduino IDE</name>
+  <summary>Open-source electronics prototyping platform</summary>
   <description>
     <p>
       Arduino is an open-source electronics prototyping platform based
